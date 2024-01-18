@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Product</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+
+<body>
+
+  <div class="modal active">
+    <div>
+      <div class="exit">
+        <i class="exit_btn fas fa-close"></i>
+      </div>
+      <form action="">
+        <h3>Img</h3>
+        <input class="img_url" type="text" placeholder="Maxsulot rasmi">
+        <h3>Size</h3>
+        <input class="prod_size" type="number" placeholder="Maxsulot hajmi">
+        <h3>Name</h3>
+        <input class="prod_name" type="text" placeholder="Maxsulot haqida">
+        <h3>Code</h3>
+        <input class="prod_code" type="text" placeholder="Mahsulot kodi">
+        <h3>Brend</h3>
+        <input class="prod_brend" type="text" placeholder="Brend nomi">
+        <h3>Popular</h3>
+        <input class="prod_rate" type="checkbox">
+        <h3>Price</h3>
+        <input class="prod_price" type="number" placeholder="0">
+        <div class="send_btn">
+          <button class="send">добавить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <nav>
+    <div class="container">
+      <div class="logo">
+        <img src="./imgs/logo.png" alt="" />
+      </div>
+      <ul>
+        <li>О компании</li>
+        <li>Доставка и оплата</li>
+        <li>Возврат</li>
+        <button class="btn">добавить</button>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <div class="container">
+      <h1><span>Акционные</span> товары</h1>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="cards">
+        <div class="card">
+           <span class="popular">ПОПУЛЯРНОЕ</span>
+
+          <div class="img">
+            <img src="https://images.uzum.uz/cc9046eha882pdjubtfg/original.jpg" alt="" />
+          </div>
+          <div class="size">
+            <img src="./imgs/volume.png" alt="" />
+            <h4>450 мл</h4>
+          </div>
+          <div class="info">
+            <h5><span> AOS</span>  средство для мытья посуды Crystal</h5>
+          </div>
+          <div class="box">
+            <h5>Штрихкод: <span>4604049097548</span></h5>
+            <h5>Производитель: <span>Нэфис</span></h5>
+            <h5>Бренд: <span>AOS</span></h5>
+          </div>
+          <div class="prise">
+            <span>48,76 ₸</span>
+            <button>
+              В КОРЗИНУ <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </main>
+</body>
+<script src="./js/main.js"></script>
+
+</html>
